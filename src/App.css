@@ -1,0 +1,9 @@
+.custom-text{
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.custom-text:hover{
+   
+    transition: all 0.3s ease-in-out;
+    scale: 1.3;
+}

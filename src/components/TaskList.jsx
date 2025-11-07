@@ -14,8 +14,8 @@ function TaskList() {
 
   return (
     <div className="bg-gray-800/70 text-white p-5 rounded-lg shadow-lg">
-      <div className="flex justify-between items-center mb-4">
-        <h2 className="text-xl font-semibold">Task List</h2>
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-3 mb-4">
+        <h2 className="text-xl font-semibold text-center sm:text-left">Task List</h2>
         <div className="space-x-2">
           <button
             className={`px-3 py-1 rounded-lg text-sm ${

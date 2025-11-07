@@ -70,12 +70,12 @@ function Manager() {
               ))}
             </div>
           </div>
-          {/* list with  filter */}
+        
           {/* list with filter */}
           <div className="container mx-auto px-4 mt-10">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Left column - TaskList */}
-              <div className="bg-gray-800/70 border border-white/10 rounded-xl p-4 shadow-md">
+              <div className="bg-gray-800/70 border border-white/10 rounded-xl p-4 shadow-md text-base sm:text-sm md:text-base lg:text-lg">
                 <TaskList />
               </div>
 
